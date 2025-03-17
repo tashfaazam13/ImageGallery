@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image-gallery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h2>Image Gallery</h2>
+    <hr>
     <div class="fullImg" id="fullImgBox">
         <img src="images/img1.png" alt="here is an img" id="fullImg">
         <span onclick="closeimg()">X</span>
+            <button class="prev"><i class="fa-solid fa-backward"></i></button>
+            <button class="next"><i class="fa-solid fa-forward"></i></button>
     </div>
     <div class="img-container">
         <img src="images/img1.png" alt="here is an img" onclick="openimg(this.src)">
@@ -19,7 +23,7 @@
         <img src="images/img4.webp" alt="here is an img" onclick="openimg(this.src)">
         <img src="images/img5.jpg" alt="here is an img" onclick="openimg(this.src)">
         <img src="images/img6.webp" alt="here is an img" onclick="openimg(this.src)">
-        <img src="images/img7.jpeg" alt="here is an img" onclick="openimg(this.src)">
+        <img src="images/img7.jpg" alt="here is an img" onclick="openimg(this.src)">
         <img src="images/img8.webp" alt="here is an img" onclick="openimg(this.src)">
         <img src="images/img9.jpeg" alt="here is an img" onclick="openimg(this.src)">
         <img src="images/img10.jpg" alt="here is an img" onclick="openimg(this.src)">
